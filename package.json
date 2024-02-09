@@ -1,7 +1,24 @@
 {
   "name": "vocative-cz",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Vocalization library for czech Names and Surnames.",
+  "author": "Gabriel Ecegi",
+  "license": "MIT",
+  "homepage": "https://github.com/gaboe/vocative-cz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaboe/vocative-cz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaboe/vocative-cz/issues"
+  },
+  "keywords": [
+    "vocative",
+    "cz",
+    "czech",
+    "vokál"
+  ],
   "type": "module",
   "main": "./dist/vocative-cz.umd.cjs",
   "module": "./dist/vocative-cz.js",
