@@ -1,4 +1,6 @@
-# Vocalization library for czech Names and Surnames.
+# Vocalization library for czech vocative case
+
+## Names, surnames and both of them together
 
 Can do the hard ones czech names like ""Řehoř" -> "Řehoři" and Names consisting of two first name like "Jaroslav Jan" -> "Jaroslave Jane".
 
