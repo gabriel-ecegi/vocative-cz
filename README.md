@@ -2,7 +2,7 @@
 
 ## Names, surnames and both of them together
 
-Can do the hard ones czech names like ""Řehoř" -> "Řehoři" and Names consisting of two first name like "Jaroslav Jan" -> "Jaroslave Jane".
+Can do the hard ones czech names like ""Řehoř" -> "Řehoři" and names consisting of two first name like "Jaroslav Jan" -> "Jaroslave Jane".
 
 Library also support surnames like "Klaus" -> "Klausi".
 
