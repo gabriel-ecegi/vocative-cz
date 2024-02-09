@@ -1,0 +1,32 @@
+{
+  "name": "vocative-cz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/vocative-cz.umd.cjs",
+  "module": "./dist/vocative-cz.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vocative-cz.js",
+      "require": "./dist/vocative-cz.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/node": "^20.11.17",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vite-plugin-dts": "^3.7.2",
+    "vitest": "^1.2.2"
+  }
+}
