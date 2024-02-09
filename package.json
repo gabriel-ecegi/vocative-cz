@@ -1,6 +1,6 @@
 {
   "name": "vocative-cz",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
   "description": "Vocalization library for czech Names and Surnames.",
   "author": "Gabriel Ecegi",
