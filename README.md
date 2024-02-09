@@ -27,8 +27,8 @@ npm install vocative-cz
 ```typescript
 import { vocative } from "vocative-cz";
 
-console.log(voctive("Řehoř")); // Řehoři
-console.log(voctive("Eva")); // Evo
+console.log(vocative("Řehoř")); // Řehoři
+console.log(vocative("Eva")); // Evo
 console.log(vocative("Petr Klaus")); // Petře Klausi
 console.log(vocative("Jaroslav Jan")); // Jaroslave Jane
 ```
