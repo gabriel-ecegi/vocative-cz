@@ -1,9 +1,11 @@
 export function vocalize(name: string | null | undefined): string | null {
-  if (!name) {
-    return name === null || name === undefined ? null : "";
+  const trimmedName = name?.trim();
+
+  if (!trimmedName || trimmedName === "") {
+    return trimmedName === null || trimmedName === undefined ? null : "";
   }
 
-  return name.split(" ").map(vocativeSingleName).join(" ");
+  return trimmedName.split(" ").map(vocativeSingleName).join(" ");
 }
 
 function vocativeSingleName(name: string): string {

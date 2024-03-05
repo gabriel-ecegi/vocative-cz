@@ -5,6 +5,8 @@ const testCases: [string | null | undefined, string | null][] = [
   [null, null],
   [undefined, null],
   ["", ""],
+  [" ", ""],
+  ["  ", ""],
   ["Aneta", "Aneto"],
   ["Antonín", "Antoníne"],
   ["Bob", "Bobe"],
